@@ -9,7 +9,7 @@ El stack tecnológico de **Convive+** ha sido seleccionado para garantizar un de
 
 - **ReactJS + Vite:** Se utiliza **React** para construir una interfaz modular y dinámica. **Vite** permite un entorno de desarrollo ultra rápido y liviano, reduciendo drásticamente los tiempos de compilación.
 - **Tailwind CSS:** Facilita la construcción de interfaces mediante clases utilitarias, estandarizando el diseño visual sin depender de pesados archivos CSS externos y agilizando el prototipado rápido.
-- **Gestión de Estado (Zustand & TanStack Query):** Dado que la app maneja cálculos financieros de usuarios en tiempo real, **Zustand** administrará el estado global ligero de la app. Por otro lado, **TanStack Query** (React Query) se usará para consumir, cachear asíncronamente y sincronizar los datos desde el backend, asegurando que los saldos y las tareas mostradas no queden desactualizadas en la pantalla del usuario.
+- **Gestión de Estado (Zustand & React Query):** Dado que la app maneja cálculos financieros de usuarios en tiempo real, **Zustand** administrará el estado global ligero de la app. Por otro lado, **React Query** se usará para consumir, cachear asíncronamente y sincronizar los datos desde el backend, asegurando que los saldos y las tareas mostradas no queden desactualizadas en la pantalla del usuario.
 
 ---
 
